@@ -1,27 +1,22 @@
-# ElectronTutorial
+# Creating a Electron project with Angular and FSharp-Library
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.0.3.
+## Install Angular if neccessary
 
-## Development server
+```npm install -g @angular/cli```
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Create a new githup repository named ```electron-tutorial```. Don' t check in anything at the moment.
 
-## Code scaffolding
+## Create a new Angular project 
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Start Visual Sudio Code, open a console, navigate to the projects folder, run the following command:
+```ng new electron-tutorial --skip-tests```
 
-## Build
+Now open the newly created folder ```electron-tutorial``` in Visual Studio Code. Delete folder ```e2e``` and file ```karma.conf.js```. Test the project by typing ```ng serve --open```
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+## Publish repository
 
-## Running unit tests
+In console, enter 
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+```git remote add origin https://github.com/uriegel/electron-tutorial.git```
 
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+Now publish branch: open Source Control View in Visual Studio Code, menu item ```Piublish Branch``` 
