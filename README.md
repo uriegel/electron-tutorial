@@ -43,3 +43,7 @@ Add electron item in script section of package.json
 In console, enter 
 
 ```npm run electron```
+
+TODO: call F# lib
+TODO: run on linux
+TODO: https://electronjs.org/docs/api/protocol, icon://
