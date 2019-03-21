@@ -4,7 +4,7 @@
 
 ```npm install -g @angular/cli```
 
-## Create a new githup repository named ```electron-tutorial```. Don' t check in anything at the moment.
+ Create a new githup repository named ```electron-tutorial```. Don't check in anything at the moment.
 
 ## Create a new Angular project 
 
@@ -19,4 +19,27 @@ In console, enter
 
 ```git remote add origin https://github.com/uriegel/electron-tutorial.git```
 
-Now publish branch: open Source Control View in Visual Studio Code, menu item ```Piublish Branch``` 
+Now publish branch: open Source Control View in Visual Studio Code, menu item ```Publish Branch``` 
+
+## Install electron
+
+```npm i -D electron```
+
+create a new folder ```electron``` for electron related files:
+* tsconfig.json
+* main.ts
+
+### Compiling
+
+add main in main section of package.json
+
+```"main": "electron/dist/main.js",```
+
+Add electron item in script section of package.json
+
+```"electron": "ng build --base-href ./ && tsc --p electron && electron ."```
+
+## Running app
+In console, enter 
+
+```npm run electron```
