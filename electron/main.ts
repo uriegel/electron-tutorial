@@ -11,7 +11,9 @@ const createWindow = function() {
         webPreferences: {
             nodeIntegration: true
         }        
-     })
+    })
+
+    console.log(process.cwd())
 
     win.loadURL(
         url.format({

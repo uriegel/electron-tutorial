@@ -12,6 +12,7 @@ var createWindow = function () {
             nodeIntegration: true
         }
     });
+    console.log(process.cwd());
     win.loadURL(url.format({
         pathname: path.join(__dirname, "/../../dist/electron-tutorial/index.html"),
         protocol: "file:",

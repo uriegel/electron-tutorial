@@ -44,6 +44,23 @@ In console, enter
 
 ```npm run electron```
 
-TODO: call F# lib
+## F# Library
+
+Make directory ```fsharp```
+
+```
+cd fsharp
+dotnet new classlib -lang F# -o Library
+```
+
+Install edge:
+
+```npm install electron-edge-js```
+
 TODO: run on linux
+TODO: Ansi Unicode
+TODO: Fsharp.core
+TODO: Build electron app
+
 TODO: https://electronjs.org/docs/api/protocol, icon://
+
